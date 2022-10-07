@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-), you can ask me about our clothes website",
+        "Hello, you can ask me about our clothes website",
+        "Hi there, you can ask me about our clothes website",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Products",
+      "patterns": [
+        "Which kind of products do you sell?",
+        "What kinds of products are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell clothes and shoes",
+        "We have clothes and shoes"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Can I pay online"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 3-5 days",
+        "Shipping takes 3-5 days"
+      ]
+    },
+    {
+      "tag": "Shoes",
+      "patterns": [
+        "What kind of shoes do you sell ?",
+        "Can you show me the shoes you have ?",
+        "I wanna buy Shoes"
+      ],
+      "responses": [
+        "We have buskets, sneakers and boots",
+        "We sell buskets, sneakers and boots"
+      ]
+    },
+    {
+      "tag": "Clothes",
+      "patterns": [
+        "What kind of Clothes do you sell ?",
+        "Can you show me the Clothes you have ?",
+        "I wanna buy Clothes"
+      ],
+      "responses": [
+        "We have suits, jeans, jackets and coats",
+        "We sell suits, jeans, jackets and coats"
+      ]
+    }
+  ]
+}
